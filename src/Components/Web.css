@@ -1,0 +1,203 @@
+.container {
+  margin: 0 auto;
+  margin-top: 20px;
+  max-width: 960px;
+}
+/* Header */
+header {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.logo {
+  display: flex;
+  padding-bottom: 20px;
+  margin-bottom: 40px;
+  border-bottom: 1px solid gray;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.plogo {
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+  margin: 0;
+}
+.plogo:hover {
+  color: rgb(208, 205, 205);
+}
+
+nav {
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+nav a {
+  color: white;
+  padding: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+nav a:hover {
+  color: rgb(208, 205, 205);
+}
+
+.logoh1 {
+  font-weight: normal;
+  font-size: 56px;
+}
+
+.logop {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+/* Card */
+.col {
+  padding: 12px;
+}
+
+.cardRow {
+  display: flex;
+}
+
+.card {
+  border: 1px solid gray;
+  width: 280px;
+  background-color: #212529;
+  border-radius: 10px;
+}
+
+.card2 {
+  border: 1px solid #0d6efd;
+  width: 280px;
+  background-color: #212529;
+  border-radius: 10px;
+}
+
+.cardHeader {
+  padding: 16px;
+  border-bottom: 1px solid gray;
+  background-color: #adb5bd08;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.cardHeader2 {
+  color: white;
+  padding: 16px;
+  border: 1px solid #0d6efd;
+  background-color: #0d6efd;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.cardBody h1 {
+  margin: 20px;
+}
+
+ul {
+  list-style: none;
+}
+
+.btn1 {
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  padding: 12px 16px;
+  width: 90%;
+  background-color: #212529;
+  color: #0d6efd;
+  border: 1px solid #0d6efd;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.btn1:hover {
+  background-color: #0d6efd;
+  color: white;
+}
+
+.btn2 {
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  padding: 12px 16px;
+  width: 90%;
+  background-color: #0d6efd;
+  color: white;
+  border: 1px solid #0d6efd;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.btn2:hover {
+  background-color: #0d5acd;
+}
+
+/* table */
+
+.h2table {
+  margin-top: 20px;
+  font-weight: normal;
+  font-size: 40px;
+}
+
+th,
+td {
+  border-bottom: 1px solid gray;
+  padding: 10px;
+}
+
+table {
+  text-align: center;
+}
+
+.tdtext {
+  text-align: left;
+}
+
+/* footer */
+
+footer {
+  width: 100%;
+  display: block;
+  text-align: left;
+  margin-top: 48px;
+  border-top: 1px solid gray;
+  padding-top: 48px;
+  margin-bottom: 48px;
+}
+
+.b {
+  text-align: left;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.column h5,
+li {
+  padding-bottom: 5px;
+}
+
+h5 {
+  font-size: 16px;
+}
+
+.column li {
+  color: #6c757d;
+}
+
+.column a {
+  cursor: pointer;
+}
+
+.column a:hover {
+  color: #52585e;
+  cursor: pointer;
+}
